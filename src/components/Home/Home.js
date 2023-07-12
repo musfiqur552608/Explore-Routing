@@ -4,7 +4,6 @@ import Header from '../Header/Header';
 const Home = () => {
     return (
         <div>
-            <Header></Header>
             <h3>This is the Home component</h3>  
         </div>
     );

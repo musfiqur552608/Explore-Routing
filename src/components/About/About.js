@@ -4,7 +4,6 @@ import Header from '../Header/Header';
 const About = () => {
     return (
         <div>
-            <Header></Header>
             <h3>This is the true real About page</h3>
         </div>
     );
