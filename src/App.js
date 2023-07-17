@@ -15,6 +15,9 @@ function App() {
       {path: 'products', element: <Products></Products>},
       {path: 'friends', element: <Friends></Friends>}
     ]},
+    {
+      path: '*', element: <div>This route not found.</div>
+    }
   ])
   return (
     <div className="App">
